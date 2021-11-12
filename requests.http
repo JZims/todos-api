@@ -1,0 +1,23 @@
+GET http://localhost:3000/todos
+
+###
+
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+    "title": "Baloo", 
+    "created_by": "2"
+}
+
+###
+PUT http://localhost:3000/todos/1 
+Content-Type: application/json
+
+{
+    "title": "Not Mozart"
+}
+
+###
+
+DELETE http://localhost:3000/todos/1
